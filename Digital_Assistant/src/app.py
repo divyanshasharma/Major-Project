@@ -1,7 +1,7 @@
 import eel
 import os
 from queue import Queue
-
+@eel.expose
 class ChatBot:
 
     started = False
@@ -25,7 +25,7 @@ class ChatBot:
     
     def close():
         ChatBot.started = False
-    
+    @eel.expose
     def addUserMsg(msg):
         eel.addUserMsg(msg)
     
