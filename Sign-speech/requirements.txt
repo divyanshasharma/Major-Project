@@ -1,0 +1,10 @@
+# We'll download these softwares, some of them are already installed in digital assistant project
+keras
+tensorflow
+gTTS
+playsound
+numpy
+sklearn
+matplotlib
+os
+ModelCheckpoint
